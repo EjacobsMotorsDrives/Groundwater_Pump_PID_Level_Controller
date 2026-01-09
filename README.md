@@ -25,17 +25,15 @@ A two-barrel hydraulic test rig is used to validate performance under controlled
 
 ---
 
-🔗 Core Libraries & Services
-Dependency	Purpose	GitHub Repository
-libmodbus	MODBUS RTU/TCP communication with VFDs and industrial devices	https://github.com/stephane/libmodbus
+## 🔗 Core Libraries & Services
 
-Caddy	HTTPS reverse proxy and static web file hosting	https://github.com/caddyserver/caddy
-
-Axum (Rust)	High-performance web API backend	https://github.com/tokio-rs/axum
-
-PostgreSQL	Structured data storage for logs, configuration, and test results	https://github.com/postgres/postgres
-
-Sequent Microsystems Industrial HAT SDK	Hardware access to analog I/O, digital I/O, and RS-485	https://github.com/SequentMicrosystems/megaind-rpi
+| Dependency | Purpose | GitHub Repository |
+|---------|--------|------------------|
+| libmodbus | MODBUS RTU/TCP communication with VFDs and industrial devices | https://github.com/stephane/libmodbus |
+| Caddy | HTTPS reverse proxy and static web file hosting | https://github.com/caddyserver/caddy |
+| Axum (Rust) | High-performance web API backend | https://github.com/tokio-rs/axum |
+| PostgreSQL | Structured data storage for logs, configuration, and test results | https://github.com/postgres/postgres |
+| Sequent Microsystems Industrial HAT SDK | Hardware access to analog I/O, digital I/O, and RS-485 | https://github.com/SequentMicrosystems/megaind-rpi |
 
 ---
 
